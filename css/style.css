@@ -494,3 +494,105 @@ footer .navbar.navbar-expand-lg ul li a {
 	color: #fff;
 	font-weight: 600;
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 1199px) {
+	.our-inner:hover .overlay {
+		display: none;
+		transition: all ease-in-out 0.5s;
+	}
+
+
+}
+
+@media only screen and (max-width: 991px) {
+	footer .navbar-nav.mr-auto {
+		display: block;
+	}
+	footer ul li {
+		padding-right: 20px !important;
+	}
+	}
+
+	@media only screen and (max-width: 767px) {
+		.top-header .col-md-4 {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.social-heading {
+			padding-bottom: 20px;
+		}
+		.phone-mail-icon {
+			text-align: center;
+			display: block;
+			width: 100%;
+		}
+
+		.main-header .col-md-9 {
+			width: 75% !important;
+		}
+		.main-header .col-md-3 {
+			width: 25%;
+		}
+		.banner-heading h1 {
+			font-size: 32.89px !important;
+		}
+		.colum {
+			width: 100%;
+			margin: 0 auto;
+		}
+		.colum-first {
+			width: 100%;
+			float: unset;
+			padding-bottom: 10px;
+		}
+		.colum-first::after {
+			display: none;
+		}
+		.img-block::after {
+
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			background-position: center;
+		}
+		#careers {
+			 
+			text-align: center;
+		}
+		#careers .slick-dots {
+			text-align: center;
+		}
+		.img-block {
+			position: relative;
+			margin-top: 300px;
+		}
+	}
+
+
+	
+	@media only screen and (max-width: 575px) {
+		
+	.main-header .col-md-9 {
+		width: 60% !important;
+	}
+	.main-header .col-md-3 {
+		width: 40%;
+	}
+}
+	
+	@media only screen and (max-width: 480px) {
+		
+	.main-header .col-md-9 {
+		width: 50% !important;
+	}
+	.main-header .col-md-3 {
+		width: 50%;
+	}
+}
