@@ -582,7 +582,7 @@ footer .navbar.navbar-expand-lg ul li a {
 	.main-header .col-md-9 {
 		width: 60% !important;
 	}
-	.main-header .col-md-3 {
+	.main-header .col-md-3 {  
 		width: 40%;
 	}
 }
