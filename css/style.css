@@ -18,6 +18,9 @@ margin: 0 auto; box-sizing: border-box;}
 	overflow: hidden;
 	 
 }
+.phone-mail-icon.mail text {
+	font-size: 13px;
+}
 
 .main-header {
 	width: 100%;
